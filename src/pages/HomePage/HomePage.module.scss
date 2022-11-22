@@ -1,0 +1,108 @@
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.homePage{
+    position: static;
+height: 100vh;
+}
+.downIcon{
+    color: #6C3234;
+left:50%;
+    top:670px;
+    position: absolute;
+}
+
+.leftContents{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    position: absolute;
+    width: 510px;
+    height: 360px;
+    left: 160px;
+    top: 40px;
+     
+}
+
+
+
+.textComment{
+    width: 490px;
+height: 108px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+
+color: rgba(248, 247, 249, 0.5);
+
+
+}
+
+
+.button{
+    border-radius: 15px;
+    border: 2px solid #6C3234;
+    padding: 16px;
+    background-color: transparent;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+color: #F8F7F9;
+}
+
+.button:hover{
+    color: #6C3234;
+transition: 0.5s;
+
+}
+
+
+
+
+
+.textRubicon{
+    width: 490px;
+height: 96px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 96px;
+line-height: 96px;
+color: #F8F7F9;
+}
+
+.car{
+
+   z-index: +999;
+height: 330px;
+    position: absolute;
+    left: 660px;
+top: 152px;
+}
+
+.elipse{
+    position: absolute;
+width: 610px;
+height: 610px;
+left: 740px;
+top: -10px;
+border-radius: 100%;
+background: rgba(138, 58, 60, 0.71);
+mix-blend-mode: normal;
+}

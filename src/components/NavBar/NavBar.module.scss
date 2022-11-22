@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbarButtons .active {
+  color:#6C3234;
+}
+
+.logo{
+
+margin-left: 10px;
+width: 135px;
+height: 121px;
+mix-blend-mode: luminosity;
+}
+
+
+.navbarItems{
+    justify-content: space-between;
+    display: flex;
+}
+
+
+.navbarButtons{
+    margin-right: 40px;
+    list-style: none;
+    gap: 64px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.navbarButtons a{
+    text-decoration: none;
+ display: flex;
+ 
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+
+color: #F8F7F9;
+
+}
+
+.navbarButtons a:hover{
+
+transition:0.5s, ;
+color: #6C3234;
+
+}
